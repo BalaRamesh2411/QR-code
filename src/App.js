@@ -7,7 +7,7 @@ function App() {
   const [img, setImg] = useState("");
   const [size, setSize] = useState("");
   const [loading, setLoading] = useState(false);
-//   const [error, setError] = useState("");
+
 
   const generateQRButton = () => {
     setLoading(true);
